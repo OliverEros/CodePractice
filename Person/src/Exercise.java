@@ -46,6 +46,7 @@ public class Exercise {
                             System.out.println("Employee: " + item.getName() + " Salary " + "£" + item.getSalary());
                         } else {
                             System.out.println("No match");
+                            break;
                         }
                     }
                     if (employees.isEmpty()) {
